@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "name": "USER_DIR",
+  "doc": "Table contains first and last names.",
+  "fields": [
+    {
+      "type": "int",
+      "name": "USER_ID"
+    },
+    {
+      "type": "string",
+      "name": "FIRST_NAME"
+    },
+    {
+      "type": "string",
+      "name": "LAST_NAME"
+    }
+  ]
+}
+

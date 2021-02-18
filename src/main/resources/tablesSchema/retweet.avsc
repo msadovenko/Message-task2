@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "RETWEET",
+  "doc": "Table contains information about retweets.",
+  "fields": [
+    {
+      "type": "int",
+      "name": "USER_ID"
+    },
+    {
+      "type": "int",
+      "name": "SUBSCRIBER_ID"
+    },
+    {
+      "type": "int",
+      "name": "MESSAGE_ID"
+    }
+  ]
+}

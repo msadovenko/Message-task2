@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "MESSAGE_DIR",
+  "doc": "Table contains text message.",
+  "fields": [
+    {
+      "type": "int",
+      "name": "MESSAGE_ID"
+    },
+    {
+      "type": "string",
+      "name": "TEXT"
+    }
+  ]
+}

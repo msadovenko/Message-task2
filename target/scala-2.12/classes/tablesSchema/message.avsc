@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "MESSAGE",
+  "doc": "Table contains information about posted messages.",
+
+  "fields": [
+    {
+      "type": "int",
+      "name": "USER_ID"
+    },
+    {
+      "type": "int",
+      "name": "MESSAGE_ID"
+    }
+  ]
+}

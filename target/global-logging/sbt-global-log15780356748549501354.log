@@ -1,0 +1,524 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m## Exception when compiling 2 sources to /Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/test-classes[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOError: java.lang.RuntimeException: /packages cannot be represented as URI[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/jdk.internal.jrtfs.JrtPath.toUri(JrtPath.java:176)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.classpath.JrtClassPath.asURLs(DirectoryClassPath.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.classpath.AggregateClassPath.$anonfun$asURLs$1(AggregateClassPath.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.Iterator.foreach(Iterator.scala:941)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.Iterator.foreach$(Iterator.scala:941)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.AbstractIterator.foreach(Iterator.scala:1429)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IterableLike.foreach(IterableLike.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IterableLike.foreach$(IterableLike.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.AbstractIterable.foreach(Iterable.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.TraversableLike.flatMap(TraversableLike.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.TraversableLike.flatMap$(TraversableLike.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.AbstractTraversable.flatMap(Traversable.scala:108)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.classpath.AggregateClassPath.asURLs(AggregateClassPath.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.findMacroClassLoader(Macros.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.findMacroClassLoader$(Macros.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.findMacroClassLoader(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.$anonfun$defaultMacroClassloaderCache$2(MacroRuntimes.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.SymbolTable$perRunCaches$$anon$2.apply(SymbolTable.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.defaultMacroClassloader(MacroRuntimes.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.defaultMacroClassloader$(MacroRuntimes.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.defaultMacroClassloader(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes$MacroRuntimeResolver.resolveRuntime(MacroRuntimes.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.$anonfun$standardMacroRuntime$3(MacroRuntimes.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.mutable.MapLike.getOrElseUpdate(MapLike.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.mutable.MapLike.getOrElseUpdate$(MapLike.scala:206)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.standardMacroRuntime(MacroRuntimes.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.standardMacroRuntime$(MacroRuntimes.scala:43)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.standardMacroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:455)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroRuntime(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroRuntime$(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.pluginsMacroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.macroRuntime(MacroRuntimes.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.runtime.MacroRuntimes.macroRuntime$(MacroRuntimes.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.macroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros$MacroExpander.$anonfun$expand$1(Macros.scala:631)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global.withInfoLevel(Global.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros$MacroExpander.expand(Macros.scala:625)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros$MacroExpander.apply(Macros.scala:612)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.standardMacroExpand(Macros.scala:787)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.standardMacroExpand$(Macros.scala:785)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.standardMacroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:439)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand$(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.pluginsMacroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.macroExpand(Macros.scala:776)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Macros.macroExpand$(Macros.scala:769)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$$anon$4.macroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1183)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1243)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5740)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3389)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:115)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:110)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3728)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3761)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4876)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4885)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5680)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:901)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1239)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5740)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2503)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$98(Typers.scala:5655)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:500)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5690)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3389)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:110)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3728)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3761)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$25(Typers.scala:4790)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:713)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4790)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4874)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4885)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5680)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2030)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1843)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5646)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5356)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5649)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:448)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.run(Analyzer.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1498)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileUnits(Global.scala:1482)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileSources(Global.scala:1475)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileFiles(Global.scala:1580)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CachedCompiler0.run(CompilerBridge.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CachedCompiler0.run(CompilerBridge.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CompilerBridge.run(CompilerBridge.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:176)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:157)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:157)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:204)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:172)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:459)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:261)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:414)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:499)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.apply(Incremental.scala:166)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2177)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2134)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2130)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.lang.Thread.run(Thread.java:832)[0m
+[0m[[0m[31merror[0m] [0m[0m           [0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOError: java.lang.RuntimeException: /packages cannot be represented as URI[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.jrtfs.JrtPath.toUri(JrtPath.java:176)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.classpath.JrtClassPath.asURLs(DirectoryClassPath.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.classpath.AggregateClassPath.$anonfun$asURLs$1(AggregateClassPath.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach(Iterator.scala:941)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach$(Iterator.scala:941)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1429)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableLike.foreach(IterableLike.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:108)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.classpath.AggregateClassPath.asURLs(AggregateClassPath.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.findMacroClassLoader(Macros.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.findMacroClassLoader$(Macros.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.findMacroClassLoader(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.$anonfun$defaultMacroClassloaderCache$2(MacroRuntimes.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.SymbolTable$perRunCaches$$anon$2.apply(SymbolTable.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.defaultMacroClassloader(MacroRuntimes.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.defaultMacroClassloader$(MacroRuntimes.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.defaultMacroClassloader(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes$MacroRuntimeResolver.resolveRuntime(MacroRuntimes.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.$anonfun$standardMacroRuntime$3(MacroRuntimes.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.MapLike.getOrElseUpdate(MapLike.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.MapLike.getOrElseUpdate$(MapLike.scala:206)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.standardMacroRuntime(MacroRuntimes.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.standardMacroRuntime$(MacroRuntimes.scala:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.standardMacroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:455)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroRuntime(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroRuntime$(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.pluginsMacroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.macroRuntime(MacroRuntimes.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.macroRuntime$(MacroRuntimes.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.macroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros$MacroExpander.$anonfun$expand$1(Macros.scala:631)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global.withInfoLevel(Global.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros$MacroExpander.expand(Macros.scala:625)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros$MacroExpander.apply(Macros.scala:612)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.standardMacroExpand(Macros.scala:787)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.standardMacroExpand$(Macros.scala:785)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.standardMacroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:439)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand$(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.pluginsMacroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpand(Macros.scala:776)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpand$(Macros.scala:769)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.macroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1183)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1243)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5740)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3389)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:115)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:110)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3728)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3761)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4876)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4885)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:901)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1239)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5740)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2503)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$98(Typers.scala:5655)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:500)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5690)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3389)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:110)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3728)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3761)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$25(Typers.scala:4790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:713)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4874)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4885)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2030)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1843)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5646)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5356)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5649)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:448)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.run(Analyzer.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1482)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1475)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1580)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerBridge.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:176)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:157)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:157)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:204)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:172)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:459)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:261)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:414)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:499)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.apply(Incremental.scala:166)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2177)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.io.Retry$.apply(Retry.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.io.Retry$.apply(Retry.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:832)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.RuntimeException: /packages cannot be represented as URI[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.jrtfs.JrtPath.toUri(JrtPath.java:176)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.classpath.JrtClassPath.asURLs(DirectoryClassPath.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.classpath.AggregateClassPath.$anonfun$asURLs$1(AggregateClassPath.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach(Iterator.scala:941)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach$(Iterator.scala:941)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1429)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableLike.foreach(IterableLike.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.flatMap(TraversableLike.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:108)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.classpath.AggregateClassPath.asURLs(AggregateClassPath.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.findMacroClassLoader(Macros.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.findMacroClassLoader$(Macros.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.findMacroClassLoader(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.$anonfun$defaultMacroClassloaderCache$2(MacroRuntimes.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.SymbolTable$perRunCaches$$anon$2.apply(SymbolTable.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.defaultMacroClassloader(MacroRuntimes.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.defaultMacroClassloader$(MacroRuntimes.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.defaultMacroClassloader(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes$MacroRuntimeResolver.resolveRuntime(MacroRuntimes.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.$anonfun$standardMacroRuntime$3(MacroRuntimes.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.MapLike.getOrElseUpdate(MapLike.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.MapLike.getOrElseUpdate$(MapLike.scala:206)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.standardMacroRuntime(MacroRuntimes.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.standardMacroRuntime$(MacroRuntimes.scala:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.standardMacroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:455)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroRuntime(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroRuntime$(AnalyzerPlugins.scala:452)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.pluginsMacroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.macroRuntime(MacroRuntimes.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.MacroRuntimes.macroRuntime$(MacroRuntimes.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.macroRuntime(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros$MacroExpander.$anonfun$expand$1(Macros.scala:631)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global.withInfoLevel(Global.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros$MacroExpander.expand(Macros.scala:625)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros$MacroExpander.apply(Macros.scala:612)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.standardMacroExpand(Macros.scala:787)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.standardMacroExpand$(Macros.scala:785)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.standardMacroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:439)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$12.default(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:408)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand$(AnalyzerPlugins.scala:436)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.pluginsMacroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpand(Macros.scala:776)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpand$(Macros.scala:769)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$$anon$4.macroExpand(Global.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1183)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1243)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5740)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3389)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:115)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:110)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3728)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3761)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4876)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4885)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:901)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1239)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5740)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2503)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$98(Typers.scala:5655)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:500)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5690)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3389)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:110)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:202)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3728)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3761)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$25(Typers.scala:4790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:713)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4874)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4885)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2030)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1843)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5646)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5356)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5649)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:448)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.run(Analyzer.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1482)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1475)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1580)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerBridge.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:176)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:157)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:157)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:204)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:172)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:459)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:261)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:414)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:499)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.apply(Incremental.scala:166)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2177)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.io.Retry$.apply(Retry.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.io.Retry$.apply(Retry.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:832)[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) java.io.IOError: java.lang.RuntimeException: /packages cannot be represented as URI[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed Feb 17, 2021, 4:31:29 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

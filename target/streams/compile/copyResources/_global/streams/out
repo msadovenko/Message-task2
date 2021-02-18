@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/msadovenko/Desktop/courses/spark/Message/src/main/resources/tablesSchema/retweet.avsc,/Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/classes/tablesSchema/retweet.avsc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/msadovenko/Desktop/courses/spark/Message/src/main/resources/tablesSchema/message.avsc,/Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/classes/tablesSchema/message.avsc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/msadovenko/Desktop/courses/spark/Message/src/main/resources/tablesSchema/messageDir.avsc,/Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/classes/tablesSchema/messageDir.avsc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/msadovenko/Desktop/courses/spark/Message/src/main/resources/tablesSchema/user.avsc,/Users/msadovenko/Desktop/courses/spark/Message/target/scala-2.12/classes/tablesSchema/user.avsc)[0m
